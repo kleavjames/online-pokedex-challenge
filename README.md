@@ -1,68 +1,52 @@
+# FocusHQ React Coding Challenge
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm i`
+
+Install all dependencies of the application.
+
 ### `yarn start`
 
-Runs the app in the development mode.<br />
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
+Launches the test runner in the interactive watch mode.
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
+Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## In Order to Test the Application
 
-### `yarn eject`
+In the `App.js` file, to force and error on the application, change or remove a char in the fetch url.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## The Challenge
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- How did you decide on the technical and architectural choices used as part of your solution?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> Before I started, I read carefully the instructions to be sure that I am in the right way. Deciding technical and architectural choice is not that hard since the app is not that complex. Though I followed the standard convention in react, naming it by its purpose, as much as possible make it reusable and never make it 2 or more levels deep. Also, used functional component since it's less code and much easier to read because they arre just plain javascript functions without state or lifecycle hooks, also you can do as much as class base with the hooks feature.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Are there any improvements you could make to your submission?
 
-## Learn More
+> If possible, the improvements that I could've add is more on the UI part, added animations to make it more elegant.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- What would you do differently if you were allocated more time?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> I might use React UI Libraries such as https://ant.design/ or https://semantic-ui.com/ but as per instructions, no using of other dependencies. Also might add animations.
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**`Regarding with testing also, since I am at beginner level with testing, there is much less testing codes that I implemented.`**
